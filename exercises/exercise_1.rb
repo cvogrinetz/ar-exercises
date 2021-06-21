@@ -16,4 +16,4 @@ richmond = Store.create(name: 'Richmond', annual_revenue: 1260000, mens_apparel:
 gasTown = Store.create(name: 'Gastown', annual_revenue: 190000, mens_apparel: true, womens_apparel: false)
 
 
-# puts "THERE ARE THESE MANY STORES IN TABLE #{Store.count}"
+puts "THERE ARE THESE MANY STORES IN TABLE #{Store.count}"
